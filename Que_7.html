@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Que 7</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .content {
+        text-align: center;
+      }
+
+      button {
+        border: none;
+        border-radius: 10px;
+        padding-left: 55px;
+        padding-right: 55px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-image: linear-gradient(to right, #5184f1, #0808ca);
+        font-size: large;
+        animation: move 1s infinite alternate;
+      }
+
+      a{
+        text-decoration: none;
+        color: #ffffff;
+      }
+
+      .button {
+        padding-top: 200px;
+      }
+
+      @keyframes move {
+          0%,
+          100%{
+            transform: translateY(-35%);
+            animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+          }
+          50%{
+            transform: translateY(0);
+            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+          }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div class="button">
+        <button>
+          <a href="https://pwskills.com/">Click Me To Visit PW Skills.</a>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
